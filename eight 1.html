@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        img{
+            width: 180px;
+            height: 120px;
+            margin-top: 10px;
+        }
+        .pro,.ins{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color: rgb(238, 223, 13);
+            width: 200px;
+            height: 300px;
+        }
+        button{
+            background-color:blueviolet;
+            outline: none;
+            border: none;
+            padding: 8px;
+            color: beige;
+
+        }
+        .con{
+            display:grid;
+            grid-template-columns: repeat(2,200px);
+            gap:20px;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            background-color: rgb(240, 18, 18);
+        }
+        .ins h4{
+            color: firebrick;
+        }
+    </style>
+</head>
+<body>
+    <div class="con">
+        <div class="pro">
+            <img src="i1.jpg">
+        <div class="ins">
+            <h3>Item 1</h3>
+        <h4>$100</h4>
+        <button>Add to Cart</button>
+        </div>
+       </div>
+       <div class="pro">
+        <img src="i1.jpg">
+    <div class="ins">
+        <h3>Item 2</h3>
+    <h4>$200</h4>
+    <button>Add to Cart</button>
+    </div>
+   </div>
+   <div class="pro">
+    <img src="i1.jpg">
+<div class="ins">
+    <h3>Item 3</h3>
+<h4>$300</h4>
+<button>Add to Cart</button>
+</div>
+</div>
+<div class="pro">
+    <img src="i1.jpg">
+<div class="ins">
+    <h3>Item 4</h3>
+<h4>$400</h4>
+<button>Add to Cart</button>
+</div>
+</div>
+    </div>
+
+</body>
+</html>
